@@ -1,0 +1,16 @@
+p#centro
+{
+	text-align: center;
+	background-color: #eeeeff;
+	width: 350px;
+}
+p#centro2
+{
+	text-align: center;
+	background-color: #d1bc97;
+	width: 350px;
+}
+br
+{
+	margin: 0px;
+}

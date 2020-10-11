@@ -1,0 +1,16 @@
+@font-face
+{
+	src: url('LEMONMILK-Regular.otf');
+	font-family: LEMON MILK;
+}
+h1
+{
+	font-family: LEMON MILK;
+	font-size: 60px;
+	text-align: center;
+}
+h3
+{
+	font-family: LEMON MILK;
+	text-align: center
+}

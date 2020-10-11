@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Meu site</title>
+    </head>
+    <body>
+        <label for="opc1">
+            <input type="radio" name="cor" id="opc1">
+            Vermelho
+        </label>
+
+        <label for="opc2">
+            <input type="radio" name="cor" id="opc2">
+            Azul
+        </label>
+
+        <button onclick="trocar()">Trocar</button>
+
+        <script>
+            function trocar() {
+                let opc1 = document.getElementById('opc1')
+                let opc2 = document.getElementById('opc2')
+            
+                if (opc1.checked == true) {
+                    document.body.style = "background: red"
+                }
+                else if (opc2.checked == true) {
+                    document.body.style = "background: blue"
+                }
+                else {
+                    document.body.style = "background: green"
+                }
+            }
+        </script>
+    </body>
+</html>

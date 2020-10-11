@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+        function soma(num1, num2)
+        {
+            let tot
+            tot = num1 + num2
+            alert("A soma foi: " + tot)
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="var1">Digite o primeiro número:</label><br>
+        <input type="text" name="var1"> <br><br>
+        <label for="var2">Digite o segundo número</label><br>
+        <input type="text" name="var2"> <br><br>
+        <h1 style = "font-family: Arial, Helvetica, sans-serif; color: aquamarine;"> agora mande os valores!</h1>
+        <button onclick="soma(parseInt(var1.value), parseInt(var2.value))"> Clique aqui para calcular!</button>
+
+</body>
+</html>
