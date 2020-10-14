@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+        $(document).ready(function () {
+            $("button").click(function () {
+            $("#parag, #teste").hide();
+            $("#titulo").hide();
+        });
+            $("#botaoshow").click(function (){
+            $("#titulo, #parag, #teste").show();
+        });
+        });
+    </script>
+</head>
+
+<body>
+    <h2 id="titulo">Titulo da pagina</h2>
+    <p id="parag">Primeiro paragrafo</p>
+    <p id="teste">Segundo paragrafo</p>
+    <button>Clique aqui para esconder os paragrafos</button>
+    <button id="botaoshow">Clique aqui para mostrar os paragrafos</button>
+</body>
+
+</html>
