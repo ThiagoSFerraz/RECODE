@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("p").click(function(){
+                $(this).hide();
+            });
+        });
+    </script>
+    <title>Jquery 3</title>
+</head>
+<body>
+    <h2>Título pra clicar</h2>
+    <p>clique em mim</p>
+    <p>vamos, não tenha vergonha, clique em mim também</p>
+    <p>Olha, se você não clicar em mim vou ficar chateado!</p>
+    <!--O motivo pelo qual os parágrafos apagam  é que
+        na tag script o "this" já está selecionado para
+        os "p" (paragrafos)-->
+</body>
+</html>
