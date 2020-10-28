@@ -1,0 +1,22 @@
+Quando a propriedade flex-direction possuir o valor row então podemos realizar o alinhamento horizontal através da propriedade justify-content. O padrão é flex start e podemos variar com fle-end e center. e quando a propriedade flex-direction possuir o valor column podemos realizar o alinhamento horizontal através da propriedade align-items display: flex;
+
+flex-direction: row;
+
+/* Horizontal */
+justify-content: flex-start
+/*Alinhado ao ínicio*/
+;
+justify-content: center
+/*Alinhado ao centro*/
+;
+justify-content: flex-end
+/*Alinhado ao fim*/
+;
+
+/* Vertical */
+align-items: flex-start;
+/*Alinhado ao ínicio*/
+align-items: center;
+/*Alinhado ao centro*/
+align-items: flex-end;
+/*Alinhado ao fim*/
