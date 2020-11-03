@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Produtos - Full Stack Eletros</title>
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <script src="./JS/funcoes.js"></script>
+    </head>
+    <body>
+        <!-- MENU -->
+        <header>
+            <div class="container">
+              <img src="./imagens/logo.png" alt="Página inicial" class="logo">
+        
+              <nav>
+                <ul>
+                  <li><a href="index.html">Página principal</a></li>
+                  <li><a href="produtos.html">Produtos</a></li>
+                  <li><a href="loja.html">Nossas Lojas</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+        <!-- FIM DO MENU -->
+        <h2 class="gearsecond">Produtos</h2> <!-- Área do site. -->
+        
+        <!-- Categorias -->
+        <div class="categorias">
+          <li onclick="exibir_todos()">Todos (8)</li>
+          <li onclick="exibir_categoria('geladeira')">Geladeira (3)</li>
+          <li onclick="exibir_categoria('fogao')">Fogão (2)</li>
+          <li onclick="exibir_categoria('microondas')">Microondas (1)</li>
+          <li onclick="exibir_categoria('lavaroupa')">Lava Roupas (1)</li>
+          <li onclick="exibir_categoria('lavalouca')">Lava Louças (1)</li>
+        </div>
+        <!-- Fim da Categorias -->
+
+        <!-- Produtos -->
+        <div class="produtos">
+          <ul>
+            <li class="liProduto" id="geladeira" style="display: block;">
+              <img class="imgproduto" src="./imagens/produtos/geladeira 1.webp" alt="Geladeira">
+              <div class="titulo">
+                Geladeira Eletrolux<br>
+                <p class="precoantigo">R$ 1550,99</p><br>
+                <p class="preco">R$ 1200,99</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="geladeira" style="display: block;">
+              <img class="imgproduto" src="./imagens/produtos/geladeira 2.webp" alt="Geladeira">
+              <div class="titulo">
+                Geladeira Genérica<br>
+                <p class="precoantigo">R$ 1200,99</p><br>
+                <p class="preco">R$ 900,99</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="geladeira" style="display: block;">
+              <img class="imgproduto" src="./imagens/produtos/geladeira 3.webp" alt="Geladeira">
+              <div class="titulo">
+                Geladeira Eletrolux 2<br>
+                <p class="precoantigo">R$ 1950,99</p><br>
+                <p class="preco">R$ 1500,99</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="fogao" style="display: block;">
+              <img class="imgproduto" src="imagens/produtos/fogao 1.webp" alt="Fogão">
+              <div class="titulo">
+                Fogão do Drift<br>
+                <p class="precoantigo">R$ 8888,88</p><br>
+                <p class="preco">R$ 7777,77</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="fogao" style="display: block;">
+              <img class="imgproduto" src="imagens/produtos/fogao 2.webp" alt="Fogão">
+              <div class="titulo">
+                Fogão Genérico<br>
+                <p class="precoantigo">R$ 900,99</p><br>
+                <p class="preco">R$ 600,99</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="microondas" style="display: block;">
+              <img class="imgproduto" src="./imagens/produtos/microondas 1.webp" alt="Microondas">
+              <div class="titulo">
+                Microondas Genérico<br>
+                <p class="precoantigo">R$ 1220,88</p><br>
+                <p class="preco">R$ 999,99</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="lavaroupa" style="display: block;">
+              <img class="imgproduto" src="./imagens/produtos/lavaroupa 1.webp" alt="Lava Roupas">
+              <div class="titulo">
+                Lava Roupa<br>
+                <p class="precoantigo">R$ 2000,55</p><br>
+                <p class="preco">R$ 1777,77</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+            <li class="liProduto" id="lavalouca" style="display: block;">
+              <img class="imgproduto" src="./imagens/produtos/lavalouca 2.webp" alt="Lava Louças">
+              <div class="titulo">
+                Lava Louças<br>
+                <p class="precoantigo">R$ 2500,88</p><br>
+                <p class="preco">R$ 1500,98</p>
+                <div class="compra"><a href="#">Compre com 1 click!</a></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- FIM DOS PRODUTOS! -->
+        
+        <div class="formapagamento">
+        <h4>
+          <p>Formas de pagamento</p>
+        </h4>
+        <div>
+          <img class="fpagamento" src="./imagens/pagamento.jpg" alt="Formas de pagamento" width="25%">
+        </div>
+        </div>
+
+      </body>
+</html>
